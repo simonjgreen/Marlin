@@ -440,7 +440,7 @@ static void lcd_prepare_menu()
     MENU_ITEM(gcode, MSG_HOME_Z, PSTR("G28 Z0"));
     MENU_ITEM(gcode, MSG_MARK_Z_ORIGIN, PSTR("G92 Z0"));
     MENU_ITEM(gcode, MSG_CENTRE_HEAD, PSTR("G0 X100 Y100"));
-    MENU_ITEM(gcode, MSG_BED_PROBING, PSTR("G32"));
+    MENU_ITEM(gcode, MSG_BED_PROBING, PSTR("G29"));
     MENU_ITEM(function, MSG_PREHEAT_PLA, lcd_preheat_pla);
     MENU_ITEM(function, MSG_PREHEAT_ABS, lcd_preheat_abs);
     MENU_ITEM(function, MSG_COOLDOWN, lcd_cooldown);
